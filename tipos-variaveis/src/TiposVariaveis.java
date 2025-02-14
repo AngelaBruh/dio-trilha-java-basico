@@ -7,5 +7,15 @@ public class TiposVariaveis {
         long cpf = 98765432109L; // se o cpf começa com zero, utilize outro tipo
         float pi = 3.14F; // o tipo float necessita do F ou f no final, é a mesma coisa para o tipo long
 
+
+        short numeroCurto = 1;
+        int numeroNormal = numeroCurto;
+        short numeroCurto2 = (short) numeroNormal;
+
+        final double VALOR_DE_PI = 3.14; // Constante, uma variavel que não pode ser alterada, e seu nome deve ser escrita em caixa alta
+        System.out.println(VALOR_DE_PI);
+
+        String meuNome = "Bruna";
+        System.out.println(meuNome);
     }
 }
