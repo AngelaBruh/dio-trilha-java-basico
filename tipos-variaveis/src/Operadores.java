@@ -69,5 +69,15 @@ public class Operadores {
         // Aqui é uma expressão booleana
 
         System.out.println(resultado);
+
+
+        /*Operadores relacionais:
+         * == verificar se é igual
+         * != verificar se é diferente
+         * > verificar se é maior
+         * >= verificar se é maior ou igual
+         * < verificar se é menor
+         * <= verificar se é igual ou menor
+        */
     }
 }
