@@ -26,7 +26,9 @@ public class Operadores {
         concatenacao = "1" + (1 + 1 + 1); // Evidência, primeiramente realizou a operação entre parenteses,
                                          // pegou o resultado e juntou com a string
 
-        System.out.println(concatenacao + " Finaliza aqui os exemplos de concatenação");
+        System.out.println(concatenacao);
+
+        System.out.println("===========================================================================");
 
 
         int numero = 5;
@@ -35,7 +37,7 @@ public class Operadores {
         System.out.println(numero + " Operação de negação"); 
 
         numero = numero * -1; // Para conveter um numero negativo para positivo
-        System.out.println(numero + "Convertendo para positivo");
+        System.out.println(numero + " Convertendo para positivo");
        
 
         int num = 5;
@@ -59,6 +61,7 @@ public class Operadores {
         variavel = !variavel;
         System.out.println(variavel);
 
+        System.out.println("==========================================================================");
 
         // Operação Ternário
         int a, b;
@@ -70,6 +73,8 @@ public class Operadores {
 
         System.out.println(resultado);
 
+        System.out.println("=====================================================================");
+
 
         /*Operadores relacionais:
          * == verificar se é igual
@@ -79,5 +84,24 @@ public class Operadores {
          * < verificar se é menor
          * <= verificar se é igual ou menor
         */
+
+        int numero1 = 1;
+        int numero2 = 2;
+
+        boolean simNao = numero1 == numero2;
+
+        if (numero1 < numero2) {
+            System.out.println("a nossa condição é verdadeira");
+        }
+
+        System.out.println("numeroUm é igual a numeroDois? " + simNao);
+
+        simNao = numero1 != numero2;
+        System.out.println("numeroUm é diferente de numeroDois? " + simNao);
+
+        simNao = numero1 > numero2;
+        System.out.println("numeroUm é maior que numeroDois? " + simNao);
+
+        System.out.println("===========================================================");
     }
 }
