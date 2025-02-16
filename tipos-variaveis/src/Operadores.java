@@ -26,6 +26,16 @@ public class Operadores {
         concatenacao = "1" + (1 + 1 + 1); // Evidência, primeiramente realizou a operação entre parenteses,
                                          // pegou o resultado e juntou com a string
 
-        System.out.println(concatenacao);
+        System.out.println(concatenacao + "Finaliza aqui os exemplos de concatenação");
+
+
+        int numero = 5;
+
+        numero = - numero; // Operação de negação
+        System.out.println(numero); 
+
+        numero = numero * -1; // Para conveter um numero negativo para positivo
+        System.out.println(numero);
+       
     }
 }
