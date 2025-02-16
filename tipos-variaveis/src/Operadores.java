@@ -46,6 +46,28 @@ public class Operadores {
         //Também pode fazer desta forma:
         System.out.println(++ num);
 
+        //Para decrementar:
+        System.out.println(num --);
+
         System.out.println(num);
+
+        // Negar um expressão booleana:
+        boolean variavel = true;
+        System.out.println(!variavel); // Aqui a negação será momentanea
+
+        // Para modificar definitivamente:
+        variavel = !variavel;
+        System.out.println(variavel);
+
+
+        // Operação Ternário
+        int a, b;
+        a = 5;
+        b = 6;
+        
+        String resultado = a==b ?"verdadeiro" : "falso"; // Uma alternativa do if e else       
+        // Aqui é uma expressão booleana
+
+        System.out.println(resultado);
     }
 }
