@@ -102,6 +102,25 @@ public class Operadores {
         simNao = numero1 > numero2;
         System.out.println("numeroUm é maior que numeroDois? " + simNao);
 
+
+        // Comparação de objeto ou textos:
+        String nomeUm = "Bruna";
+        String nomeDois = new String("Bruna");
+
+        System.out.println(nomeUm.equals(nomeDois));
         System.out.println("===========================================================");
+
+        // Operadores lógicos:
+        boolean condição1=true;
+        boolean condição2=false;
+
+        if (condição1 && condição2) {
+            System.out.println("as duas condições são verdadeiras");
+        }
+
+        if (condição1 || condição2) {
+            System.out.println("um das condições é verdadeira");
+        }
+        System.out.println("fim");
     }
 }
