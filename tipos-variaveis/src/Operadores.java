@@ -37,5 +37,15 @@ public class Operadores {
         numero = numero * -1; // Para conveter um numero negativo para positivo
         System.out.println(numero + "Convertendo para positivo");
        
+
+        int num = 5;
+
+        // x repetição
+        num++; // Operador de incremento. É o mesmo que: num = num + 1;
+        
+        //Também pode fazer desta forma:
+        System.out.println(++ num);
+
+        System.out.println(num);
     }
 }
