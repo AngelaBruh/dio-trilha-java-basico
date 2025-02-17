@@ -12,7 +12,7 @@ public class ExemploFor2 {
 
         System.out.println("==========================================================");
     
-        // Forma abreviada:
+        // Forma abreviada - for each:
         String alunos2 [] =  {"FELIPE","JONAS","JULIA","MARCOS"};
 	
         //Forma abreviada
