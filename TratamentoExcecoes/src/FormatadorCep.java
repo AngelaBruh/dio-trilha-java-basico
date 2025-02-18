@@ -1,9 +1,9 @@
 public class FormatadorCep {
     public static void main(String[] args) {
         try {
-            String cepFormatado = formatarCep("23765064");
+            String cepFormatado = formatarCep("29287659");
             System.out.println(cepFormatado);
-        } catch (CepInvalidoException e) {           
+        } catch (CepInvalidoException e) {
             System.out.println("O cep não corresponde com as regras de negocio");
         }
     }
@@ -13,5 +13,6 @@ public class FormatadorCep {
         
           //simulando um cep formatado
           return "23.765-064";
+          
     }
 }
