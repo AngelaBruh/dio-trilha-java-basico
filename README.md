@@ -12,4 +12,5 @@ public: acesso de qualquer classe
 
 private: acesso apenas dentro da classe
 
-protected: acesso por classes no mesmo pacote e subclasses
+protected ou default: acesso por classes no mesmo pacote e subclasses
+
